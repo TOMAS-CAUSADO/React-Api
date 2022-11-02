@@ -55,4 +55,5 @@ const CharacterManager = () => {
     )
 }
 
+/*commit #3 */
 export default CharacterManager
