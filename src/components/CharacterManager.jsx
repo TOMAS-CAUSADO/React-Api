@@ -13,7 +13,7 @@ const CharacterManager = () => {
     const getCharacterList = async () => {
         try {
 
-            fetch('https://thesimpsonsquoteapi.glitch.me/quotes?count=20')
+            fetch('https://thesimpsonsquoteapi.glitch.me/quotes?count=30')
                 .then((response) => response.json())
                 .then((data) => setCharacterList(data));
 
